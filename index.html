@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>NEURAL CORE ∞ Quantum Entity</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg id="scene">
+
+<defs>
+<filter id="glow">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+</filter>
+
+<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#00fff0"/>
+    <stop offset="50%" stop-color="#7d5cff"/>
+    <stop offset="100%" stop-color="#ff0088"/>
+</linearGradient>
+
+<linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00ff95"/>
+    <stop offset="100%" stop-color="#00c3ff"/>
+</linearGradient>
+</defs>
+
+</svg>
+
+<script src="script.js"></script>
+</body>
+</html>
