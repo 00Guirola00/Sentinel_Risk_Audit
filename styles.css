@@ -1,0 +1,10 @@
+body { font-family: 'Segoe UI', sans-serif; background: #f4f7f6; color: #333; line-height: 1.6; }
+#app { max-width: 700px; margin: 40px auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+h3 { color: #2980b9; margin-top: 30px; border-left: 4px solid #2980b9; padding-left: 10px; }
+.pregunta { margin-bottom: 15px; padding: 10px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+select { padding: 5px; border-radius: 4px; border: 1px solid #ccc; }
+button { background: #2c3e50; color: white; padding: 15px 25px; border: none; cursor: pointer; font-size: 18px; border-radius: 4px; width: 100%; margin-top: 20px; font-weight: bold; }
+button:hover { background: #34495e; }
+#resultado { margin-top: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; background: #f9f9f9; }
+.btn-contacto { background: #e67e22; display: block; text-align: center; text-decoration: none; color: white; border-radius: 4px; padding: 12px; margin-top: 20px; font-weight: bold; }
