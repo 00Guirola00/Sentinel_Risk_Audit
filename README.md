@@ -17,5 +17,7 @@ Esta herramienta permite a los gerentes de operaciones realizar un autodiagnóst
 
 ## Despliegue
 Este proyecto está optimizado para ejecutarse directamente en cualquier navegador moderno mediante [GitHub Pages](https://pages.github.com/). No requiere compilación ni dependencias externas, asegurando máxima portabilidad y seguridad.
+
+"La arquitectura del proyecto permite su uso en entornos offline (sin conexión a internet), ideal para auditorías de campo en sitios con acceso restringido."
 ---
 *Desarrollado por: Fausto | Especialista en Gestión de Riesgos*
