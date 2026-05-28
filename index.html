@@ -2,19 +2,48 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Sentinel Risk Audit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentinel Risk Audit | Consultoría de Riesgos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="app">
-        <h1>Sentinel Risk Audit</h1>
-        <p>Framework de Evaluación de Resiliencia Operativa.</p>
-        
-        <div id="quiz-container"></div>
-        
-        <button id="btn-calcular">Calcular Nivel de Riesgo Global</button>
-        <div id="resultado"></div>
+
+<nav>
+    <a onclick="show('home')">Inicio</a>
+    <a onclick="show('auditoria')">Auditoría</a>
+    <a onclick="show('protocolos')">Protocolos</a>
+</nav>
+
+<section id="home" class="active">
+    <h1>Sentinel Risk Audit</h1>
+    <p>Plataforma profesional de evaluación de riesgos para empresas de seguridad. Metodología basada en 5 pilares de resiliencia operativa.</p>
+    <button onclick="show('auditoria')">Iniciar Auditoría Ahora</button>
+</section>
+
+<section id="auditoria">
+    <h2>Evaluación de Riesgos (25 Puntos)</h2>
+    <div id="quiz-container">
+        </div>
+    <br>
+    <button id="btn-calcular">Calcular Riesgo</button>
+    <div id="resultado"></div>
+</section>
+
+<section id="protocolos">
+    <h2>Protocolos de Seguridad</h2>
+    <div style="background: #1a1a1a; padding: 25px; border-radius: 8px; border-left: 4px solid #d4af37;">
+        <p>Como consultor en gestión de riesgos, estoy integrando mi biblioteca de <strong>Protocolos de Mitigación Internacional</strong> y <strong>Manuales de Continuidad Operativa</strong> en esta plataforma.</p>
+        <p>Estos documentos están diseñados para empresas que buscan homologar sus estándares bajo normativas globales de seguridad física y resiliencia.</p>
+        <br>
+        <strong>¿Tu empresa requiere un protocolo de urgencia?</strong>
+        <p>Si tu auditoría resultó en un nivel <em>MEDIO</em> o <em>CRÍTICO</em>, no esperes a la actualización de la plataforma.</p>
+        <br>
+        <a href="mailto:eliasguirola.h@gmail.com?subject=Consulta: Solicitud de Protocolos de Seguridad" class="btn-contacto">Solicitar Asesoría Directa</a>
     </div>
-    <script src="script.js"></script>
+</section>
+
+<footer>&copy; 2026 Elías Guirola Henríquez - Consultoría en Gestión de Riesgos</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
