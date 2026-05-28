@@ -15,5 +15,7 @@ En entornos de seguridad física, el riesgo no es solo técnico, es operativo y 
 ### Uso
 Esta herramienta permite a los gerentes de operaciones realizar un autodiagnóstico rápido de sus procesos críticos, entregando un nivel de riesgo basado en el cumplimiento normativo y operativo.
 
+## Despliegue
+Este proyecto está optimizado para ejecutarse directamente en cualquier navegador moderno mediante [GitHub Pages](https://pages.github.com/). No requiere compilación ni dependencias externas, asegurando máxima portabilidad y seguridad.
 ---
 *Desarrollado por: Fausto | Especialista en Gestión de Riesgos*
